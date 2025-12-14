@@ -73,14 +73,19 @@ html {
     background-color: #f08b94;
   }
   
-  .hero {
+  /*.hero {
     position: relative;
     background: url('../images/hero.jpg') center/cover no-repeat;
     color: #2d502c;
     text-align: center;
     padding: 80px 20px 40px;
     min-height: 300px;
-  }
+  }*/
+
+  .hero {
+  background: hotpink !important;
+  min-height: 500px;
+}
 
   .hero::after {
     content: '';
