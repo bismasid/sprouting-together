@@ -1,0 +1,46 @@
+* {
+    font-family: Arial, Verdana, sans-serif;
+}
+
+body {
+    background-color: #FCF8E3;
+}
+
+h1 {
+    font-family: "Georgia", serif;
+    color: #45a049;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Georgia", serif;
+    color: #53431F;
+    text-align: center;
+}
+
+h3 {
+    color: #53431F;
+}
+
+p {
+    font-family: Quicksand, Poppins, Nunito, sans-serif;
+    color: #3e4e42;
+    font-size: 105%;
+}
+
+i {color: #ff6f61
+
+}
+
+footer {
+    font-size: 125%;
+    color: rgb(19, 126, 88);
+}
+
+.hero {
+    background: url('images/index_mainpic.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 150px 20px 100px;
+  }
+  
