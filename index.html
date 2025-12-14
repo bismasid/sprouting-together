@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprouting Together</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" 
+    href="css/my_styles2.css">
+
+</head>
+<style>
+    /* navigation bar styling */
+    .navbar {
+      background-color: #F14A58; /* reddish pink background */
+      overflow: hidden;
+      display: flex;
+      justify-content: center; /* Center the nav items */
+      padding: 10px 0;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    /* Nav links (styled as buttons) */
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      padding: 14px 20px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    .navbar a:hover {
+      background-color: #f08b94;
+    }
+
+    /* Add some padding to the top of the page so content isn't hidden behind navbar */
+    body {
+      margin: 0;
+      padding-top: 60px;
+      font-family: Arial, sans-serif;
+    }
+
+    section {
+      padding: 50px;
+      height: 600px;
+    }
+  </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+      <a href="my_index.html">Home</a>
+      <a href="mission.html">Mission</a>
+      <a href="aboutme.html">About</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <h1>Sprouting Together</h1>
+        <p>Planting Seeds, Cultivating Community.</p>
+        <div style="text-align: center;">
+          <img src="images/STLogo2.1.png" alt="logo" width="250px" height="250px"/>
+        </div>
+        <a href="mission.html" class="btn">Learn More</a>
+        <a href="#come-join-us" class="btn">Get Involved</a>
+      </section>
+  
+      <!-- What are Community Gardens -->
+      <section class="section" id="what-community-gardens">
+        <h2>What Are Community Gardens?</h2>
+        <p>Community gardens are shared plots of land where neighbors can come together and tend to 
+            plants, flowers, and harvest fruits and vegetables. These gardens strengthen community bonds 
+            and promote healthy lifestyles. Low-income communities are at the highest risk for obesity due
+             to the convenience of fast food and the lack of affordable food options. With the option of 
+             community gardens, residents are able to plant and grow their own produce, giving everyone an 
+             equal opportunity in achieving a well-balanced and nutritous diet.</p>
+        <div style="text-align: center;">
+          <img src="images/indeximage1.jpg" alt="radish" width="350px" height="450px"/>
+          <figcaption><p>Our locally grown vegetable!</p></figcaption>
+        </div>
+      </section>
+  <br><br><br><br><br><br>
+      <!-- Come Join Us -->
+      <section class="section" id="come-join-us">
+        <h2>Come Join Us!</h2>
+        <div class="join-container">
+          <div class="join-text">
+            <h3>Northridge Location:</h3>
+            <p>18111 Nordhoff Street <br>Northridge, CA 91330</p>
+      
+            <h3>Glendale Location:</h3>
+            <p>1500 N Verdugo Rd <br>Glendale, CA 91208</p>
+      
+            <h3>Downtown Los Angeles Location:</h3>
+            <p>200 N Spring St. <br>Los Angeles, CA 90012</p>
+      
+            <h3>Santa Monica Location:</h3>
+            <p>1351 3rd Street Promenade <br>Santa Monica, CA 90401</p>
+          </div>
+      
+          <div class="join-image">
+            <br>
+            <img src="images/indeximage2.jpg" alt="Community Garden Image" style="max-width: 100%; height: 450px;">
+          </div>
+        </div>
+      </section>
+      
+    </main>
+  
+    <footer class="footer">
+      © SiddiquiB 2025
+    </footer>
+  </body>
+  
+</html>

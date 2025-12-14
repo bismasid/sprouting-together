@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gallery | Sprouting Together</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/my_styles2.css">
+</head>
+
+<!-- nav bar styling -->
+<style>
+    /* Style the navigation bar */
+    .navbar {
+      background-color: #F14A58; /* reddish pink background */
+      overflow: hidden;
+      display: flex;
+      justify-content: center; /* Center the nav items */
+      padding: 10px 0;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    /* Nav links (styled as buttons) */
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      padding: 14px 20px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    .navbar a:hover {
+      background-color: #f08b94;
+    }
+
+    /* Add some padding to the top of the page so content isn't hidden behind navbar */
+    body {
+      margin: 0;
+      padding-top: 60px;
+    }
+
+    section {
+      padding: 50px;
+      height: 600px;
+    }
+  </style>
+  </head>
+
+<body>
+
+  <div class="navbar">
+    <a href="my_index.html">Home</a>
+    <a href="mission.html">Mission</a>
+    <a href="aboutme.html">About</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <main>
+    <section class="section">
+      <h1>🌱 The Garden Gallery 🌱</h1>
+      <div class="carousel">
+        <div class="carousel-track">
+          <img src="images/galleryimage1.jpg" alt="Garden 1">
+          <img src="images/galleryimage2.jpg" alt="Garden 2">
+          <img src="images/galleryimage3.jpg" alt="Garden 3">
+          <img src="images/galleryimage4.jpg" alt="Garden 4">
+          <img src="images/galleryimage5.jpg" alt="Garden 5">
+          <img src="images/galleryimage6.jpg" alt="Garden 6">
+          <img src="images/galleryimage7.jpg" alt="Garden 7">
+          <img src="images/galleryimage8.jpg" alt="Garden 8">
+          <img src="images/galleryimage9.jpg" alt="Garden 9">
+        </div>
+        <button class="carousel-btn prev">&#10094;</button>
+        <button class="carousel-btn next">&#10095;</button>
+      </div>
+      <p style="text-align: center; margin-top: 20px;">
+        These images were captured over the years documenting our harvest, our individual
+        plant beds and the helpful volunteers we couldn't live without. 
+        <br><br>
+        📸 Want your garden featured? <br> <a href="contact.html">Send us your photo!</a>
+      </p>
+      
+    </section>
+  </main>
+
+  <script src="js/carousel.js"></script>
+
+
+
+  <footer class="footer">
+    © SiddiquiB 2025
+  </footer>
+
+</body>
+</html>
